@@ -256,4 +256,11 @@ p {
 .slide-in-move {
   transition: transform 0.8s ease;
 }
+
+@media screen and (max-width: 600px) {
+  main {
+    min-height: auto;
+    height: 600px;
+  }
+}
 </style>
